@@ -1,0 +1,41 @@
+.active { 
+   background: #1188FF;
+   color: #FFF;
+}
+
+page-item {
+//  border: 1px solid #EDEFF2;
+ color : #252F43FF;
+ background: #FFF;
+}
+
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+a {
+    cursor: pointer;
+}
+
+
+
+.pagination {
+    width: 40px;
+    height: 32px;
+    border-radius: 1px;  
+    font-size: 13px;
+    opacity: 1;
+    display: flex;
+}
+
+// non-active state：
+//  border: 1px solid #EDEFF2;
+//  text-color : #252F43FF
+//  background: #FFF
+
+//  active: 
+//    background: #1188FF;
+//    text-color : #252F43FF
+//    text-color: #FFF
